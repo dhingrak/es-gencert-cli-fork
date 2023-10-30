@@ -21,7 +21,7 @@ func main() {
 		ErrorWriter: os.Stderr,
 	}
 
-	appName := "Event Store Certificate Generation CLI"
+	appName := "Event Store Certificate Generation CLI - changing few lines to test the impact"
 	args := os.Args[1:]
 	c := cli.NewCLI(appName, version)
 	c.Args = args
